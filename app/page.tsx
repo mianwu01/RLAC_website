@@ -71,9 +71,9 @@ These results highlight that dynamic,
 adversarial critic training is crucial—it continuously adapts to the generator’s behavior, 
 preventing reward hacking and sustaining meaningful supervision.`
 const paperEvaluations = [
-  {title: "Performance Comparison on Factual Text Generation", text:paperEvaluationContent1, imgUrl:"/" + repoName +"/images/table1withtitle.png"},
-  {title: "Performance Comparison on Code Generation", text:paperEvaluationContent3, imgUrl:"/" + repoName +"/images/table3withtitle.png"},
-  {title: "Adversarial Critic Matters", text:paperEvaluationContent4, imgUrl:"/" + repoName +"/images/table2withtitle.png"},
+  {title: "Performance Comparison on Factual Text Generation", text:paperEvaluationContent1, imgUrl:"/" + repoName +"/images/table1.png"},
+  {title: "Performance Comparison on Code Generation", text:paperEvaluationContent3, imgUrl:"/" + repoName +"/images/table3.png"},
+  {title: "Adversarial Critic Matters", text:paperEvaluationContent4, imgUrl:"/" + repoName +"/images/table2.png"},
 ]
 // BibTeX文本常量
 const BIBTEX_TEXT = `@article{2025rlac,
