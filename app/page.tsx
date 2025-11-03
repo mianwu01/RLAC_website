@@ -68,7 +68,7 @@ correct facts (21.6 vs. 17.8) while keeping errors low.
 In contrast, the static critic achieves a slightly higher FactScore by reducing the 
 number of generated facts, indicating over-precision rather than genuine improvement. 
 These results highlight that dynamic, 
-adversarial critic training is crucial—it continuously adapts to the generator’s behavior, 
+adversarial critic training is crucial, it continuously adapts to the generator’s behavior, 
 preventing reward hacking and sustaining meaningful supervision.`
 const paperEvaluations = [
   {title: "Performance Comparison on Factual Text Generation", text:paperEvaluationContent1, imgUrl:"/" + repoName +"/images/table1.png"},
