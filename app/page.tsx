@@ -75,12 +75,15 @@ const paperEvaluations = [
   {title: "Performance Comparison on Code Generation", text:paperEvaluationContent3, imgUrl:"/" + repoName +"/images/table3.png"},
   {title: "Adversarial Critic Matters", text:paperEvaluationContent4, imgUrl:"/" + repoName +"/images/table2.png"},
 ]
-// BibTeX文本常量
-const BIBTEX_TEXT = `@article{2025rlac,
-  title={Reinforcement Learning with Adversarial Critic Feedback for Free-form Generations},
-  author={Wu, Mian and Zhang, Gavin and Min, Sewon and Levine, Sergey and Kumar, Aviral},
-  journal={arXiv preprint arXiv:},
-  year={2025},
+
+const BIBTEX_TEXT = `@misc{wu2025rlacreinforcementlearningadversarial,
+      title={RLAC: Reinforcement Learning with Adversarial Critic for Free-Form Generation Tasks}, 
+      author={Mian Wu and Gavin Zhang and Sewon Min and Sergey Levine and Aviral Kumar},
+      year={2025},
+      eprint={2511.01758},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.01758}, 
 }`;
 
 export default function Paper() {
